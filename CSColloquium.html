@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <title>The Flipped Classroom</title>
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" href="deck.js/core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="deck.js/extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="deck.js/extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="deck.js/extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="deck.js/extensions/status/deck.status.css">
+  <link rel="stylesheet" media="screen" href="deck.js/extensions/scale/deck.scale.css">
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="deck.js/themes/style/swiss.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="deck.js/themes/transition/horizontal-slide.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="deck.js/core/print.css">
+
+  <!-- Required Modernizr file -->
+  <script src="deck.js/modernizr.custom.js"></script>
+</head>
+<body>
+  <div class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+    <section class="slide">
+      <div class="vcenter">
+        <h1 style="font-size:2.7em">How to Engage Computer Science Students:</h1>
+        <h1 style="font-size:2.2em"> Instructional Models, Data Collection, and Software for an Active Classroom<h1>
+          <h3 style="font-size:1.75em">Michael Skirpan</h3>
+          <h6>++added help from desk.js</h6>
+        </div>
+      </section>
+
+      <section class="slide">
+        <h2>Outline</h2>
+        <ul>
+          <li><h3>What the %*$# are we talking about (short)</h3></li>
+          <li><h3>Our Class Model (long)</h3></li>
+          <li><h3>Data and Analysis (long)</h3></li>
+          <li><h3>Software (short)</h3></li>
+        </ul>
+      </section>
+
+      <section class="slide">
+        <img src="img/paradigm-shift.png">
+        <h2>Disclaimer: This next part is theoretical!</h2>
+      </section>
+
+      <section class="slide">
+        <h2>Preliminary Distinctions</h2>
+        <h4>Traditional Education</h4>
+        <ul>
+          <li>Subject Matter is a pre-determined body of information</li>
+          <li>Skills are known from past experience</li>
+          <li>Transmit old knowledge to new generation</li>
+          <li>Teacher is knowledge holder</li>
+          <li>Students are to be passive and orderly</li>
+          <li>Knowledge is brought INTO the classroom</li>
+        </ul>
+        <p style="font-size:.75em">See: Dewey, John. <em>Experience and Education.</em> TouchStone. 1938.</p>
+      </section>
+
+      <section class="slide">
+        <h2>Preliminary Distinctions</h2>
+        <h4>Progressive Education</h4>
+        <ul>
+          <li>Student must <em>discover</em> knowledge in his/her own way (i.e., experiential learning)</li>
+          <li>Teacher is facilatator who <em>may</em> be wrong from time to time...</li>
+          <li>Frameworks are useful, but real knowledge comes from practice</li>
+          <li>Learning is social</li>
+          <li>Knowledge is CREATED in the classroom</li>
+        </ul>
+      </section>
+
+      <section class="slide">
+        <div class="vcenter">
+          <img src="img/Sleeping.jpg">
+          <h2>Traditional Classes are Boring!</h2>
+          <h5>(and have a tendency to exclude some people)</h5>
+        </div>
+      </section>
+
+      <section class="slide">
+        <h1>One more important thing..</h1>
+      </section>
+
+      <section class="slide">
+        <h2>Education that is fully owned by students is:</h2>
+        <h2 style="color:blue">Democratic Education</h2>
+        <p>Defined as an education where the students govern the policies and curriculum.  In a proper democratic classroom, what students determine cannot be overturned by teacher or administration.</p>
+        <br>
+        <p>To practice democratic education does not mean you cannot structure your class, but that there should be open conversation about what is and is not working in a classroom, and students should be empowered to suggest changes.</p>
+      </section>
+
+      <section class="slide">
+        <h2>We should be concerned, well.. because students are going broke for a good education</h2>
+        <img align="middle" src="img/outState.png">
+        <img align="middle" src="img/inState.png">
+      </section>
+
+      <section class="slide">
+        <h2>Traditional Classrooms</h2>
+        <p>Common practices: </p>
+        <ul>
+          <li class="slide"><h5>Teacher Lectures</h5></li>
+          <li class="slide"><h5>Students Take Notes</h5></li>
+          <li class="slide"><h5>Homework is where learning is applied</h5></li>
+          <li class="slide"><h5>Individualized Exams</h5></li>
+          <li class="slide"><h5>End of semester project</h5></li>
+        </ul>
+      </section>
+
+      <section class="slide">
+        <h2>Looks something like this:</h2>
+        <img align="middle" src="img/tradClass.png">
+      </section>
+
+      <section class="slide">
+        <h2>Flipped Classroom (Redux)</h2>
+        <p>We have borrowed some features of Eric Mazur's Flipped Classroom.  The original flipped classroom is:</p>
+        <ul>
+          <li>Students have 'lecture' outside of class</li>
+          <li>Class time is spend doing and asking questions</li>
+        </ul>
+        <h3>Our Modification</h3>
+        <ul>
+          <li>Students do hack-a-thons in peer groups during class</li>
+          <li>"Homework" is a series of challenges that actively take students through learning exercise</li>
+        </ul>
+      </section>
+
+      <section class="slide">
+        <h2>The flipped model looks something like this:</h2>
+        <img align="middle" src="img/flippedClass.png">
+      </section>
+
+      <section class="slide">
+        <h1>Let's slow down a minute...there's more to it.</h1>
+      </section>
+
+      <section class="slide">
+        <h2>Implementation 1</h2>
+        <p>Spring 2014 - User-Centered Development and Design.  In teaching this class, we implemented a number of experimental ideas:</p>
+        <ul>
+          <li class="slide">Hack-a-thon Classes</li>
+          <li class="slide">Design Challenge Homeworks</li>
+          <li class = "slide">Student Journals to Record Feedback</li>
+          <li class="slide">Google Drive API for Data</li>
+          <li class="slide">Group Projects on GitHub</li>
+        </ul>
+        <p class="slide">So some new stuff, but not everything yet..</p>
+      </section>
+
+      <section class="slide">
+        <h2>Google Drive for all Materials:</h2>
+        <img src="img/folders.png">
+      </section>
+      <section class="slide">
+        <h2>Hack-a-thon</h2>
+        <img height="500px" align="left" src="img/hackDoc.png">
+        <img width="550px" align="right" src="img/hackSub.png">
+      </section>
+
+      <section class="slide">
+        <h2>What it looks like:</h2>
+        <img align="middle" src="img/RP.jpg">
+      </section>
+
+      <section class="slide">
+        <h2>Challenges</h2>
+         <img height="500px" align="left" src="img/chalDoc.png">
+        <img width="550px" align="right" src="img/chalSub.png">
+      </section>
+
+      <section class="slide">
+        <h2>Journal</h2>
+        <img width="550px" align="left" src="img/journal1.png">
+        <img width="550px" align="right" src="img/journal2.png">
+        <img width="550px" align="middle" src="img/journal3.png">
+      </section>
+
+      <section class="slide">
+        <h2>Fall Semester</h2>
+        <p>Fall 2014 - HCI Topics: Big Data.  We will continue with the classroom style we had this semester, PLUS:</p>
+        <ul>
+          <li class="slide">Classroom Forum</li>
+          <li class="slide">Real-time Feedback</li>
+          <li class="slide">Some in-class discussion/debate time</li>
+        </ul>
+      </section>
+
+      <section class="slide">
+        <h1>Data Collection</h1>
+      </section>
+
+      <section class="slide">
+        <h2>Google Drive API</h2>
+        <p>We made use of Google Drive's Revision History API to collect data on how students work both in and out of class.</p>
+        <img src="img/gdrive.png">
+      </section>
+
+      <section class="slide">
+        <img src="img/angry-google.jpg">
+        <h2>Then while writing API scripts, I hit a snag in our plan...</h2>
+      </section>
+
+      <section class="slide">
+        <h2>Current limitations with Google Drive</h2>
+        <ul>
+          <li>Only coarse-grain revision histories exposed in API</li>
+          <li>Broken export links on presentations</li>
+          <li>Some API response values missing</li>
+        </ul>
+        <p>So we've now met with the drive team from both Google Boulder and NYC, and, with interest on their part, will likely have a work-able API for the autumn.</p>
+        <p class="slide">However, we were still able to pull data from the journals and coarse-grain histories to do some analysis.</p>
+      </section>
+
+      <section class="slide">
+        <h2>Patterns for when students do their homework</h2>
+        <img src="img/sampleEdits.png">
+        <p style="font-size:1em; text-align:center">Kudos to d3.js for helping me render a pretty graph</p>
+      </section>
+
+      <section class="slide">
+        <h2>Histogram of how challenging one week's homework was:</h2>
+        <img src="img/challenge.png">
+        <p style="font-size:1em; text-align:center">Thanks to matplotlib for showing me that homework was very hard this week.</p>
+      </section>
+
+      <section class="slide">
+        <h2>Lesson learned from this analysis:</h2>
+        <h3>Always give really clear directions on how naming conventions and responses should look or else you'll be dealing with exceptions for hours, and hours, and hours...</h3>
+      </section>
+
+      <section class="slide">
+        <h1>What the future holds</h1>
+      </section>
+
+      <section class="slide">
+        <h2>Software for automation</h2>
+        <p>Following the next iteration of our classroom design (and assuming Google fixes its API bugs), I hope to have a software package that:</p>
+        <ul>
+          <li>Sets up student folders</li>
+          <li>Distributes templates for hack-a-thons and challenges</li>
+          <li>Collects data and reports learning analytics (i.e., graphs and stats) in weekly batches</li>
+        </ul>
+        <div class ="slide">
+          <h2>Upcoming Challenges Include:</h2>
+          <ul>
+            <li>Social Network Analysis</li>
+            <li>Public Forum</li>
+            <li>Extending the Model for Use in High School Classrooms</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="slide">
+        <h1>Questions??</h1>
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <!-- End slides. -->
+
+      <!-- Begin extension snippets. Add or remove as needed. -->
+
+      <!-- deck.navigation snippet -->
+      <div aria-role="navigation">
+        <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+        <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+      </div>
+
+      <!-- deck.status snippet -->
+      <p class="deck-status" aria-role="status">
+        <span class="deck-status-current"></span>
+        /
+        <span class="deck-status-total"></span>
+      </p>
+
+      <!-- deck.goto snippet -->
+      <form action="." method="get" class="goto-form">
+        <label for="goto-slide">Go to slide:</label>
+        <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+        <datalist id="goto-datalist"></datalist>
+        <input type="submit" value="Go">
+      </form>
+
+      <!-- End extension snippets. -->
+    </div>
+
+    <!-- Required JS files. -->
+    <script src="deck.js/jquery.min.js"></script>
+    <script src="deck.js/core/deck.core.js"></script>
+
+    <!-- Extension JS files. Add or remove as needed. -->
+    <script src="deck.js/extensions/menu/deck.menu.js"></script>
+    <script src="deck.js/extensions/goto/deck.goto.js"></script>
+    <script src="deck.js/extensions/status/deck.status.js"></script>
+    <script src="deck.js/extensions/navigation/deck.navigation.js"></script>
+    <script src="deck.js/extensions/scale/deck.scale.js"></script>
+
+    <!-- Initialize the deck. You can put this in an external file if desired. -->
+    <script>
+    $(function() {
+      $.deck('.slide');
+    });
+    </script>
+  </body>
+  </html>
